@@ -1,0 +1,52 @@
+# 📈 daily-pulse
+
+A small self-updating record of my public GitHub footprint. A [GitHub Action](.github/workflows/pulse.yml)
+runs every morning, queries the GitHub GraphQL API, appends a row to
+[`data/stats.csv`](data/stats.csv), and rewrites this page.
+
+Nothing here is typed by hand — including the numbers below.
+
+## Today
+
+| Metric | Value |
+|---|---|
+| Contributions (rolling year) | **604** (0 since yesterday) |
+| Commits | 595 |
+| Pull requests | 1 |
+| Issues | 0 |
+| Public repos | 8 |
+| Stars earned | 9 |
+| Followers | 4 |
+
+## Trend
+
+Contributions, last 1 recorded day:
+
+```
+▁
+```
+
+Stars, same window:
+
+```
+▁
+```
+
+## Language mix
+
+| Language | Repos |
+|---|---|
+| `TypeScript` | 2 |
+| `Python` | 1 |
+| `JavaScript` | 1 |
+| `CSS` | 1 |
+| `HTML` | 1 |
+| `Lua` | 1 |
+
+## About the data
+
+- **1** snapshot recorded since `2026-08-08`
+- Source: GitHub GraphQL API, public data only
+- Schema: `date,contributions,commits,prs,issues,repos,stars,followers`
+
+<sub>Last run: 8 Aug 2026 at 3:08 PM IST</sub>

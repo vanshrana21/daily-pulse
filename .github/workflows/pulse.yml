@@ -1,0 +1,50 @@
+name: Daily pulse
+
+on:
+  schedule:
+    # 03:20 UTC = 08:50 IST, every day.
+    # Odd minute on purpose: GitHub drops/delays jobs scheduled on the hour.
+    - cron: "20 3 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/pulse.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse
+  cancel-in-progress: false
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Record snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bun run scripts/pulse.ts
+
+      - name: Commit
+        run: |
+          # Author must be Vansh's account email, NOT github-actions[bot] —
+          # bot-authored commits do not count toward the contribution graph.
+          git config user.name  "vanshrana21"
+          git config user.email "212261375+vanshrana21@users.noreply.github.com"
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No change — nothing to commit."
+            exit 0
+          fi
+          git commit -m "pulse: $(date -u +%Y-%m-%d)"
+          git push
