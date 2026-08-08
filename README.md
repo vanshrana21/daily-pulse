@@ -10,11 +10,11 @@ Nothing here is typed by hand — including the numbers below.
 
 | Metric | Value |
 |---|---|
-| Contributions (rolling year) | **604** (0 since yesterday) |
-| Commits | 595 |
+| Contributions (rolling year) | **606** (0 since yesterday) |
+| Commits | 596 |
 | Pull requests | 1 |
 | Issues | 0 |
-| Public repos | 8 |
+| Public repos | 9 |
 | Stars earned | 9 |
 | Followers | 4 |
 
@@ -36,7 +36,7 @@ Stars, same window:
 
 | Language | Repos |
 |---|---|
-| `TypeScript` | 2 |
+| `TypeScript` | 3 |
 | `Python` | 1 |
 | `JavaScript` | 1 |
 | `CSS` | 1 |
@@ -49,4 +49,4 @@ Stars, same window:
 - Source: GitHub GraphQL API, public data only
 - Schema: `date,contributions,commits,prs,issues,repos,stars,followers`
 
-<sub>Last run: 8 Aug 2026 at 3:08 PM IST</sub>
+<sub>Last run: 8 Aug 2026, 3:08 pm IST</sub>
