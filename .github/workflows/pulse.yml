@@ -47,4 +47,16 @@ jobs:
             exit 0
           fi
           git commit -m "pulse: $(date -u +%Y-%m-%d)"
-          git push
+
+          # Retry against concurrent runs / manual pushes landing first.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, rebasing and retrying..."
+            git pull --rebase --strategy-option=ours origin main || git rebase --abort
+            sleep 3
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
