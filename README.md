@@ -10,8 +10,8 @@ Nothing here is typed by hand — including the numbers below.
 
 | Metric | Value |
 |---|---|
-| Contributions (rolling year) | **608** (0 since yesterday) |
-| Commits | 598 |
+| Contributions (rolling year) | **609** (+1 since yesterday) |
+| Commits | 599 |
 | Pull requests | 1 |
 | Issues | 0 |
 | Public repos | 9 |
@@ -20,16 +20,16 @@ Nothing here is typed by hand — including the numbers below.
 
 ## Trend
 
-Contributions, last 1 recorded day:
+Contributions, last 2 recorded days:
 
 ```
-▁
+▁█
 ```
 
 Stars, same window:
 
 ```
-▁
+▁▁
 ```
 
 ## Language mix
@@ -45,8 +45,8 @@ Stars, same window:
 
 ## About the data
 
-- **1** snapshot recorded since `2026-08-08`
+- **2** snapshots recorded since `2026-08-08`
 - Source: GitHub GraphQL API, public data only
 - Schema: `date,contributions,commits,prs,issues,repos,stars,followers`
 
-<sub>Last run: 8 Aug 2026, 3:10 pm IST</sub>
+<sub>Last run: 9 Aug 2026, 10:10 am IST</sub>
