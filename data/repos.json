@@ -1,0 +1,78 @@
+{
+  "captured": "2026-08-11",
+  "count": 9,
+  "repos": [
+    {
+      "name": "Ieee",
+      "stars": 2,
+      "forks": 0,
+      "language": "Python",
+      "kb": 25700,
+      "pushed": "2026-08-07"
+    },
+    {
+      "name": "AbyssalDive",
+      "stars": 1,
+      "forks": 0,
+      "language": "Lua",
+      "kb": 330,
+      "pushed": "2026-08-07"
+    },
+    {
+      "name": "Finguru",
+      "stars": 1,
+      "forks": 0,
+      "language": "CSS",
+      "kb": 26,
+      "pushed": "2026-01-28"
+    },
+    {
+      "name": "hackathon-1",
+      "stars": 1,
+      "forks": 0,
+      "language": "JavaScript",
+      "kb": 231,
+      "pushed": "2026-01-28"
+    },
+    {
+      "name": "kavach",
+      "stars": 1,
+      "forks": 0,
+      "language": "HTML",
+      "kb": 48,
+      "pushed": "2026-08-07"
+    },
+    {
+      "name": "Project-Friday",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 117,
+      "pushed": "2025-11-17"
+    },
+    {
+      "name": "vanshrana21",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 38,
+      "pushed": "2026-08-11"
+    },
+    {
+      "name": "yoooo",
+      "stars": 1,
+      "forks": 0,
+      "language": null,
+      "kb": 0,
+      "pushed": "2026-07-22"
+    },
+    {
+      "name": "daily-pulse",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 7,
+      "pushed": "2026-08-11"
+    }
+  ]
+}
