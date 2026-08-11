@@ -2,7 +2,7 @@ name: Daily pulse
 
 on:
   schedule:
-    # 03:20 UTC = 08:50 IST, every day.
+    # 03:20 UTC = 08:50 IST daily.
     # Odd minute on purpose: GitHub drops/delays jobs scheduled on the hour.
     - cron: "20 3 * * *"
   workflow_dispatch: {}
@@ -29,24 +29,43 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Record snapshot
+      - name: Regenerate all artifacts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bun run scripts/pulse.ts
-
-      - name: Commit
         run: |
-          # Author must be Vansh's account email, NOT github-actions[bot] —
+          mkdir -p data assets
+          bun run scripts/pulse.ts
+
+      - name: Commit each artifact separately
+        run: |
+          # Author must be Vansh's account, NOT github-actions[bot] —
           # bot-authored commits do not count toward the contribution graph.
           git config user.name  "vanshrana21"
           git config user.email "212261375+vanshrana21@users.noreply.github.com"
 
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No change — nothing to commit."
+          DATE=$(date -u +%Y-%m-%d)
+
+          commit_one () {
+            local path="$1" msg="$2"
+            [ -e "$path" ] || return 0
+            git add -- "$path"
+            git diff --cached --quiet -- "$path" && { git reset -q -- "$path"; return 0; }
+            git commit -q -m "$msg"
+            echo "  ✓ $msg"
+          }
+
+          commit_one data/stats.csv     "data: record daily totals for $DATE"
+          commit_one data/repos.json    "data: refresh per-repo snapshot"
+          commit_one data/languages.csv "data: update language mix"
+          commit_one data/stars.csv     "data: update star history"
+          commit_one data/streak.json   "data: recompute activity streak"
+          commit_one assets/trend.svg   "assets: redraw trend sparkline"
+          commit_one README.md          "docs: regenerate README from $DATE snapshot"
+
+          if git diff --quiet HEAD@{upstream} HEAD 2>/dev/null; then
+            echo "Nothing to push."
             exit 0
           fi
-          git commit -m "pulse: $(date -u +%Y-%m-%d)"
 
           # Retry against concurrent runs / manual pushes landing first.
           for attempt in 1 2 3; do
