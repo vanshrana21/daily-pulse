@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 120" width="720" height="120" role="img" aria-label="Contribution trend">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="url(#g)" points="8,112 8.0,112.0 242.7,86.0 477.3,60.0 712.0,8.0 712,112"/>
+  <polyline fill="none" stroke="#39d353" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="8.0,112.0 242.7,86.0 477.3,60.0 712.0,8.0"/>
+</svg>
