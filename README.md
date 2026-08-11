@@ -1,52 +1,71 @@
 # 📈 daily-pulse
 
-A small self-updating record of my public GitHub footprint. A [GitHub Action](.github/workflows/pulse.yml)
-runs every morning, queries the GitHub GraphQL API, appends a row to
-[`data/stats.csv`](data/stats.csv), and rewrites this page.
+A self-updating record of my public GitHub footprint. A [scheduled Action](.github/workflows/pulse.yml)
+runs each morning, queries the GitHub GraphQL API, and rewrites the data files below.
+Every number on this page is generated — nothing is typed by hand.
 
-Nothing here is typed by hand — including the numbers below.
+![trend](assets/trend.svg)
 
-## Today
+## Today · 2026-08-11
 
 | Metric | Value |
 |---|---|
-| Contributions (rolling year) | **611** (+1 since yesterday) |
-| Commits | 601 |
+| Contributions (rolling year) | **612** (+2 vs. previous snapshot) |
+| Commits | 602 |
 | Pull requests | 1 |
 | Issues | 0 |
 | Public repos | 9 |
 | Stars earned | 9 |
+| Forks | 0 |
 | Followers | 4 |
+
+**Streak:** 6 days current · 8 longest · 41/367 days active
+**Busiest day:** 2026-01-18 (124 contributions)
 
 ## Trend
 
-Contributions, last 4 recorded days:
+Contributions across the last 4 snapshots:
 
 ```
-▁▃▆█
+▁▃▅█
 ```
 
-Stars, same window:
+## Repositories
 
-```
-▁▁▁▁
-```
+| Repo | ★ | Language | Last push |
+|---|---|---|---|
+| [Ieee](https://github.com/vanshrana21/Ieee) | 2 | Python | 2026-08-07 |
+| [AbyssalDive](https://github.com/vanshrana21/AbyssalDive) | 1 | Lua | 2026-08-07 |
+| [Finguru](https://github.com/vanshrana21/Finguru) | 1 | CSS | 2026-01-28 |
+| [hackathon-1](https://github.com/vanshrana21/hackathon-1) | 1 | JavaScript | 2026-01-28 |
+| [kavach](https://github.com/vanshrana21/kavach) | 1 | HTML | 2026-08-07 |
+| [Project-Friday](https://github.com/vanshrana21/Project-Friday) | 1 | TypeScript | 2025-11-17 |
+| [vanshrana21](https://github.com/vanshrana21/vanshrana21) | 1 | TypeScript | 2026-08-11 |
+| [yoooo](https://github.com/vanshrana21/yoooo) | 1 | — | 2026-07-22 |
+| [daily-pulse](https://github.com/vanshrana21/daily-pulse) | 0 | TypeScript | 2026-08-11 |
 
 ## Language mix
 
-| Language | Repos |
+| Language | Share |
 |---|---|
-| `TypeScript` | 3 |
-| `Python` | 1 |
-| `JavaScript` | 1 |
-| `CSS` | 1 |
-| `HTML` | 1 |
-| `Lua` | 1 |
+| `Python` | 42.7% █████████ |
+| `JavaScript` | 22.5% █████ |
+| `CSS` | 13.6% ███ |
+| `HTML` | 12.7% ███ |
+| `Lua` | 5.0% █ |
+| `Luau` | 2.6% █ |
+| `TypeScript` | 0.7% █ |
+| `Shell` | 0.2% █ |
 
-## About the data
+## Files
 
-- **4** snapshots recorded since `2026-08-08`
-- Source: GitHub GraphQL API, public data only
-- Schema: `date,contributions,commits,prs,issues,repos,stars,followers`
+| Path | Contents |
+|---|---|
+| [`data/stats.csv`](data/stats.csv) | one row per day — totals |
+| [`data/repos.json`](data/repos.json) | per-repo snapshot |
+| [`data/languages.csv`](data/languages.csv) | language bytes over time |
+| [`data/stars.csv`](data/stars.csv) | per-repo star history |
+| [`data/streak.json`](data/streak.json) | computed streak stats |
+| [`assets/trend.svg`](assets/trend.svg) | rendered sparkline |
 
-<sub>Last run: 11 Aug 2026, 10:13 am IST</sub>
+<sub>Last run: 11 Aug 2026, 7:31 pm IST · source: GitHub GraphQL API, public data only</sub>
