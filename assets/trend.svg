@@ -5,6 +5,6 @@
       <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <polygon fill="url(#g)" points="8,112 8.0,112.0 108.6,108.6 209.1,105.3 309.7,98.6 410.3,95.2 510.9,71.7 611.4,34.8 712.0,8.0 712,112"/>
-  <polyline fill="none" stroke="#39d353" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="8.0,112.0 108.6,108.6 209.1,105.3 309.7,98.6 410.3,95.2 510.9,71.7 611.4,34.8 712.0,8.0"/>
+  <polygon fill="url(#g)" points="8,112 8.0,112.0 96.0,109.3 184.0,106.5 272.0,101.1 360.0,98.3 448.0,79.2 536.0,49.1 624.0,27.2 712.0,8.0 712,112"/>
+  <polyline fill="none" stroke="#39d353" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="8.0,112.0 96.0,109.3 184.0,106.5 272.0,101.1 360.0,98.3 448.0,79.2 536.0,49.1 624.0,27.2 712.0,8.0"/>
 </svg>
