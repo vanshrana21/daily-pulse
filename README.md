@@ -6,28 +6,28 @@ Every number on this page is generated — nothing is typed by hand.
 
 ![trend](assets/trend.svg)
 
-## Today · 2026-08-19
+## Today · 2026-08-20
 
 | Metric | Value |
 |---|---|
-| Contributions (rolling year) | **667** (+7 vs. previous snapshot) |
-| Commits | 657 |
+| Contributions (rolling year) | **682** (+15 vs. previous snapshot) |
+| Commits | 671 |
 | Pull requests | 1 |
 | Issues | 0 |
-| Public repos | 9 |
+| Public repos | 10 |
 | Stars earned | 9 |
 | Forks | 0 |
 | Followers | 4 |
 
-**Streak:** 13 days current · 13 longest · 48/368 days active
+**Streak:** 14 days current · 14 longest · 49/369 days active
 **Busiest day:** 2026-01-18 (124 contributions)
 
 ## Trend
 
-Contributions across the last 12 snapshots:
+Contributions across the last 13 snapshots:
 
 ```
-▁▁▁▁▂▂▄▅▆▆▇█
+▁▁▁▁▁▂▃▄▅▅▆▇█
 ```
 
 ## Repositories
@@ -40,21 +40,22 @@ Contributions across the last 12 snapshots:
 | [hackathon-1](https://github.com/vanshrana21/hackathon-1) | 1 | JavaScript | 2026-01-28 |
 | [kavach](https://github.com/vanshrana21/kavach) | 1 | HTML | 2026-08-07 |
 | [Project-Friday](https://github.com/vanshrana21/Project-Friday) | 1 | TypeScript | 2025-11-17 |
-| [vanshrana21](https://github.com/vanshrana21/vanshrana21) | 1 | TypeScript | 2026-08-19 |
+| [vanshrana21](https://github.com/vanshrana21/vanshrana21) | 1 | TypeScript | 2026-08-20 |
 | [yoooo](https://github.com/vanshrana21/yoooo) | 1 | — | 2026-07-22 |
-| [daily-pulse](https://github.com/vanshrana21/daily-pulse) | 0 | TypeScript | 2026-08-18 |
+| [claude-os-free](https://github.com/vanshrana21/claude-os-free) | 0 | TypeScript | 2026-08-19 |
+| [daily-pulse](https://github.com/vanshrana21/daily-pulse) | 0 | TypeScript | 2026-08-19 |
 
 ## Language mix
 
 | Language | Share |
 |---|---|
-| `Python` | 42.6% █████████ |
-| `JavaScript` | 22.5% ████ |
-| `CSS` | 13.5% ███ |
-| `HTML` | 12.7% ███ |
-| `Lua` | 5.0% █ |
+| `Python` | 42.0% ████████ |
+| `JavaScript` | 22.1% ████ |
+| `CSS` | 13.3% ███ |
+| `HTML` | 12.5% ██ |
+| `Lua` | 4.9% █ |
 | `Luau` | 2.6% █ |
-| `TypeScript` | 0.9% █ |
+| `TypeScript` | 2.4% █ |
 | `Shell` | 0.2% █ |
 
 ## Files
@@ -68,4 +69,4 @@ Contributions across the last 12 snapshots:
 | [`data/streak.json`](data/streak.json) | computed streak stats |
 | [`assets/trend.svg`](assets/trend.svg) | rendered sparkline |
 
-<sub>Last run: 19 Aug 2026, 9:33 am IST · source: GitHub GraphQL API, public data only</sub>
+<sub>Last run: 20 Aug 2026, 9:33 am IST · source: GitHub GraphQL API, public data only</sub>
