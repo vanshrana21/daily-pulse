@@ -1,6 +1,6 @@
 {
-  "captured": "2026-08-19",
-  "count": 9,
+  "captured": "2026-08-20",
+  "count": 10,
   "repos": [
     {
       "name": "Ieee",
@@ -55,8 +55,8 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 93,
-      "pushed": "2026-08-19"
+      "kb": 97,
+      "pushed": "2026-08-20"
     },
     {
       "name": "yoooo",
@@ -67,12 +67,20 @@
       "pushed": "2026-07-22"
     },
     {
+      "name": "claude-os-free",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 130,
+      "pushed": "2026-08-19"
+    },
+    {
       "name": "daily-pulse",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 42,
-      "pushed": "2026-08-18"
+      "kb": 46,
+      "pushed": "2026-08-19"
     }
   ]
 }
