@@ -1,5 +1,5 @@
 {
-  "captured": "2026-08-25",
+  "captured": "2026-08-26",
   "count": 10,
   "repos": [
     {
@@ -55,8 +55,8 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 55,
-      "pushed": "2026-08-25"
+      "kb": 59,
+      "pushed": "2026-08-26"
     },
     {
       "name": "yoooo",
@@ -79,8 +79,8 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 67,
-      "pushed": "2026-08-24"
+      "kb": 71,
+      "pushed": "2026-08-25"
     }
   ]
 }
