@@ -1,7 +1,23 @@
 {
-  "captured": "2026-09-07",
+  "captured": "2026-09-08",
   "count": 10,
   "repos": [
+    {
+      "name": "AbyssalDive",
+      "stars": 2,
+      "forks": 0,
+      "language": "Lua",
+      "kb": 330,
+      "pushed": "2026-08-07"
+    },
+    {
+      "name": "Finguru",
+      "stars": 2,
+      "forks": 0,
+      "language": "CSS",
+      "kb": 26,
+      "pushed": "2026-01-28"
+    },
     {
       "name": "Ieee",
       "stars": 2,
@@ -11,20 +27,52 @@
       "pushed": "2026-08-07"
     },
     {
-      "name": "AbyssalDive",
-      "stars": 1,
+      "name": "kavach",
+      "stars": 2,
       "forks": 0,
-      "language": "Lua",
-      "kb": 330,
+      "language": "HTML",
+      "kb": 48,
       "pushed": "2026-08-07"
     },
     {
-      "name": "Finguru",
+      "name": "Project-Friday",
+      "stars": 2,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 117,
+      "pushed": "2025-11-17"
+    },
+    {
+      "name": "vanshrana21",
+      "stars": 2,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 86,
+      "pushed": "2026-09-08"
+    },
+    {
+      "name": "yoooo",
+      "stars": 2,
+      "forks": 0,
+      "language": null,
+      "kb": 0,
+      "pushed": "2026-07-22"
+    },
+    {
+      "name": "claude-os-free",
       "stars": 1,
       "forks": 0,
-      "language": "CSS",
-      "kb": 26,
-      "pushed": "2026-01-28"
+      "language": "TypeScript",
+      "kb": 130,
+      "pushed": "2026-08-19"
+    },
+    {
+      "name": "daily-pulse",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "kb": 128,
+      "pushed": "2026-09-07"
     },
     {
       "name": "hackathon-1",
@@ -33,54 +81,6 @@
       "language": "JavaScript",
       "kb": 231,
       "pushed": "2026-01-28"
-    },
-    {
-      "name": "kavach",
-      "stars": 1,
-      "forks": 0,
-      "language": "HTML",
-      "kb": 48,
-      "pushed": "2026-08-07"
-    },
-    {
-      "name": "Project-Friday",
-      "stars": 1,
-      "forks": 0,
-      "language": "TypeScript",
-      "kb": 117,
-      "pushed": "2025-11-17"
-    },
-    {
-      "name": "vanshrana21",
-      "stars": 1,
-      "forks": 0,
-      "language": "TypeScript",
-      "kb": 86,
-      "pushed": "2026-09-07"
-    },
-    {
-      "name": "yoooo",
-      "stars": 1,
-      "forks": 0,
-      "language": null,
-      "kb": 0,
-      "pushed": "2026-07-22"
-    },
-    {
-      "name": "claude-os-free",
-      "stars": 0,
-      "forks": 0,
-      "language": "TypeScript",
-      "kb": 130,
-      "pushed": "2026-08-19"
-    },
-    {
-      "name": "daily-pulse",
-      "stars": 0,
-      "forks": 0,
-      "language": "TypeScript",
-      "kb": 124,
-      "pushed": "2026-09-06"
     }
   ]
 }
