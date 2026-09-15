@@ -1,6 +1,6 @@
 {
-  "captured": "2026-09-14",
-  "count": 10,
+  "captured": "2026-09-15",
+  "count": 11,
   "repos": [
     {
       "name": "AbyssalDive",
@@ -47,8 +47,8 @@
       "stars": 2,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 104,
-      "pushed": "2026-09-14"
+      "kb": 105,
+      "pushed": "2026-09-15"
     },
     {
       "name": "yoooo",
@@ -57,6 +57,14 @@
       "language": null,
       "kb": 0,
       "pushed": "2026-07-22"
+    },
+    {
+      "name": "bakufu",
+      "stars": 1,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "kb": 10588,
+      "pushed": "2026-09-14"
     },
     {
       "name": "claude-os-free",
@@ -71,8 +79,8 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 156,
-      "pushed": "2026-09-13"
+      "kb": 160,
+      "pushed": "2026-09-14"
     },
     {
       "name": "hackathon-1",
