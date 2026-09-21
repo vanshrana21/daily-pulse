@@ -1,5 +1,5 @@
 {
-  "captured": "2026-09-20",
+  "captured": "2026-09-21",
   "count": 11,
   "repos": [
     {
@@ -47,8 +47,8 @@
       "stars": 2,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 63,
-      "pushed": "2026-09-20"
+      "kb": 68,
+      "pushed": "2026-09-21"
     },
     {
       "name": "yoooo",
@@ -63,8 +63,8 @@
       "stars": 1,
       "forks": 0,
       "language": "Jupyter Notebook",
-      "kb": 11651,
-      "pushed": "2026-09-17"
+      "kb": 12700,
+      "pushed": "2026-09-21"
     },
     {
       "name": "claude-os-free",
@@ -79,8 +79,8 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 184,
-      "pushed": "2026-09-19"
+      "kb": 189,
+      "pushed": "2026-09-20"
     },
     {
       "name": "hackathon-1",
