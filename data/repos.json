@@ -1,7 +1,15 @@
 {
-  "captured": "2026-10-02",
+  "captured": "2026-10-03",
   "count": 11,
   "repos": [
+    {
+      "name": "kavach",
+      "stars": 3,
+      "forks": 0,
+      "language": "HTML",
+      "kb": 48,
+      "pushed": "2026-08-07"
+    },
     {
       "name": "AbyssalDive",
       "stars": 2,
@@ -27,14 +35,6 @@
       "pushed": "2026-08-07"
     },
     {
-      "name": "kavach",
-      "stars": 2,
-      "forks": 0,
-      "language": "HTML",
-      "kb": 48,
-      "pushed": "2026-08-07"
-    },
-    {
       "name": "Project-Friday",
       "stars": 2,
       "forks": 0,
@@ -47,8 +47,8 @@
       "stars": 2,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 91,
-      "pushed": "2026-10-02"
+      "kb": 96,
+      "pushed": "2026-10-03"
     },
     {
       "name": "yoooo",
@@ -79,8 +79,8 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 169,
-      "pushed": "2026-10-01"
+      "kb": 174,
+      "pushed": "2026-10-02"
     },
     {
       "name": "hackathon-1",
