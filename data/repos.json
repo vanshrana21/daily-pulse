@@ -1,5 +1,5 @@
 {
-  "captured": "2026-11-04",
+  "captured": "2026-11-05",
   "count": 12,
   "repos": [
     {
@@ -7,8 +7,8 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 114,
-      "pushed": "2026-11-04"
+      "kb": 118,
+      "pushed": "2026-11-05"
     },
     {
       "name": "AbyssalDive",
@@ -78,9 +78,9 @@
       "name": "daily-pulse",
       "stars": 1,
       "forks": 0,
-      "language": "TypeScript",
-      "kb": 335,
-      "pushed": "2026-11-03"
+      "language": null,
+      "kb": 340,
+      "pushed": "2026-11-04"
     },
     {
       "name": "hackathon-1",
