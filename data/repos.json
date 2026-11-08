@@ -1,14 +1,22 @@
 {
-  "captured": "2026-11-07",
+  "captured": "2026-11-08",
   "count": 12,
   "repos": [
+    {
+      "name": "kavach",
+      "stars": 3,
+      "forks": 0,
+      "language": "HTML",
+      "kb": 48,
+      "pushed": "2026-08-07"
+    },
     {
       "name": "vanshrana21",
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 123,
-      "pushed": "2026-11-07"
+      "kb": 124,
+      "pushed": "2026-11-08"
     },
     {
       "name": "AbyssalDive",
@@ -32,14 +40,6 @@
       "forks": 0,
       "language": "Python",
       "kb": 25700,
-      "pushed": "2026-08-07"
-    },
-    {
-      "name": "kavach",
-      "stars": 2,
-      "forks": 0,
-      "language": "HTML",
-      "kb": 48,
       "pushed": "2026-08-07"
     },
     {
@@ -79,8 +79,8 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "kb": 350,
-      "pushed": "2026-11-06"
+      "kb": 355,
+      "pushed": "2026-11-07"
     },
     {
       "name": "hackathon-1",
