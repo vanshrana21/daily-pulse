@@ -6,20 +6,20 @@ Every number on this page is generated — nothing is typed by hand.
 
 ![trend](assets/trend.svg)
 
-## Today · 2026-11-11
+## Today · 2026-11-12
 
 | Metric | Value |
 |---|---|
-| Contributions (rolling year) | **1356** (+7 vs. previous snapshot) |
-| Commits | 1343 |
+| Contributions (rolling year) | **1286** (-70 vs. previous snapshot) |
+| Commits | 1277 |
 | Pull requests | 1 |
 | Issues | 0 |
-| Public repos | 12 |
-| Stars earned | 20 |
+| Public repos | 8 |
+| Stars earned | 15 |
 | Forks | 0 |
 | Followers | 5 |
 
-**Streak:** 97 days current · 97 longest · 132/368 days active
+**Streak:** 98 days current · 98 longest · 129/369 days active
 **Busiest day:** 2026-01-18 (124 contributions)
 
 ## Trend
@@ -27,7 +27,7 @@ Every number on this page is generated — nothing is typed by hand.
 Contributions across the last 60 snapshots:
 
 ```
-▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇██████
+▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▇▇▇▇▇▇▇██████▇
 ```
 
 ## Repositories
@@ -35,30 +35,26 @@ Contributions across the last 60 snapshots:
 | Repo | ★ | Language | Last push |
 |---|---|---|---|
 | [kavach](https://github.com/vanshrana21/kavach) | 3 | HTML | 2026-08-07 |
-| [vanshrana21](https://github.com/vanshrana21/vanshrana21) | 3 | TypeScript | 2026-11-11 |
+| [vanshrana21](https://github.com/vanshrana21/vanshrana21) | 3 | TypeScript | 2026-11-12 |
 | [AbyssalDive](https://github.com/vanshrana21/AbyssalDive) | 2 | Lua | 2026-08-07 |
 | [Finguru](https://github.com/vanshrana21/Finguru) | 2 | CSS | 2026-01-28 |
 | [Ieee](https://github.com/vanshrana21/Ieee) | 2 | Python | 2026-08-07 |
-| [Project-Friday](https://github.com/vanshrana21/Project-Friday) | 2 | TypeScript | 2025-11-17 |
-| [yoooo](https://github.com/vanshrana21/yoooo) | 2 | — | 2026-07-22 |
 | [bakufu](https://github.com/vanshrana21/bakufu) | 1 | Jupyter Notebook | 2026-09-21 |
 | [claude-os-free](https://github.com/vanshrana21/claude-os-free) | 1 | TypeScript | 2026-08-19 |
-| [daily-pulse](https://github.com/vanshrana21/daily-pulse) | 1 | TypeScript | 2026-11-10 |
-| [hackathon-1](https://github.com/vanshrana21/hackathon-1) | 1 | JavaScript | 2026-01-28 |
-| [student-attendance-management-system](https://github.com/vanshrana21/student-attendance-management-system) | 0 | Python | 2026-10-20 |
+| [daily-pulse](https://github.com/vanshrana21/daily-pulse) | 1 | TypeScript | 2026-11-11 |
 
 ## Language mix
 
 | Language | Share |
 |---|---|
-| `Python` | 34.9% ███████ |
-| `Jupyter Notebook` | 22.3% ████ |
-| `JavaScript` | 13.7% ███ |
-| `CSS` | 9.9% ██ |
-| `HTML` | 7.8% ██ |
-| `TypeScript` | 6.9% █ |
-| `Lua` | 3.0% █ |
-| `Luau` | 1.6% █ |
+| `Python` | 38.0% ████████ |
+| `Jupyter Notebook` | 24.7% █████ |
+| `JavaScript` | 10.3% ██ |
+| `CSS` | 8.9% ██ |
+| `TypeScript` | 7.2% █ |
+| `HTML` | 5.9% █ |
+| `Lua` | 3.3% █ |
+| `Luau` | 1.8% █ |
 
 ## Files
 
@@ -71,4 +67,4 @@ Contributions across the last 60 snapshots:
 | [`data/streak.json`](data/streak.json) | computed streak stats |
 | [`assets/trend.svg`](assets/trend.svg) | rendered sparkline |
 
-<sub>Last run: 11 Nov 2026, 4:41 pm IST · source: GitHub GraphQL API, public data only</sub>
+<sub>Last run: 12 Nov 2026, 4:58 pm IST · source: GitHub GraphQL API, public data only</sub>
